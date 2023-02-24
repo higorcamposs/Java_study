@@ -12,7 +12,7 @@ public class Conta {
     }
     void depositar(double v){
         this.saldo += v;
-        System.out.println("❌ Depositar realizado!");
+        System.out.println("✔ Depositar realizado!");
     }
     boolean sacar(double v){
         if (v <= this.disponivel()){
